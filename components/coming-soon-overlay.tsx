@@ -30,7 +30,7 @@ export function ComingSoonOverlay() {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="text-xl sm:text-2xl text-muted-foreground max-w-md mx-auto"
           >
-            We're preparing something extraordinary for you
+            We&apos;re preparing something extraordinary for you
           </motion.p>
         </motion.div>
       </div>
