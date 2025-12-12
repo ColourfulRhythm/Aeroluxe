@@ -4,6 +4,7 @@ import "./globals.css";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Navigation } from "@/components/navigation";
 import { MobileCTA } from "@/components/mobile-cta";
+import { ComingSoonOverlay } from "@/components/coming-soon-overlay";
 
 const inter = Inter({ 
   subsets: ["latin"],
@@ -31,6 +32,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <ComingSoonOverlay />
           <Navigation />
           <main className="min-h-screen">
             {children}
